@@ -31,7 +31,7 @@
 
 .nav a:hover,
 .nav a:active {
-	background: linear-gradient(90deg, #ff8a05, #f9b331);
+	background: linear-gradient(90deg, #ff5405, #f9b331);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -39,7 +39,7 @@
 }
 
 .active {
-	background: linear-gradient(90deg, #ff8a05, #f9b331);
+	background: linear-gradient(90deg, #ff5405, #f9b331);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
