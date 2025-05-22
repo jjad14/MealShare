@@ -21,7 +21,7 @@ export default function HeaderBackground() {
 						<stop
 							offset='100%'
 							style={{
-								stopColor: '#8f0909',
+								stopColor: '#450000',
 								stopOpacity: '1'
 							}}
 						/>
