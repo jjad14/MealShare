@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
 								<stop
 									offset='100%'
 									style={{
-										stopColor: '#8f3a09',
+										stopColor: '#8f0909',
 										stopOpacity: '1'
 									}}
 								/>
