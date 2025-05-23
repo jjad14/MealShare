@@ -1,10 +1,16 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import { getMeal } from '@/lib/meals';
+import { notFound } from 'next/navigation';
 
 export default async function MealDetailsPage({ params }) {
 	const { mealSlug } = await params;
 	const meal = getMeal(mealSlug);
+
+	// Check if the meal exists
+	if (!meal) {
+		notFound();
+	}
 
 	// Replace newlines with <br> tags
 	meal.instructions = meal.instructions.replace(/\n/g, '<br>');
