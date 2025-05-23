@@ -21,7 +21,7 @@ export default function MealsPage() {
 				</h1>
 				<p>Find dishes you like and make them your own!</p>
 				<p className={styles.cta}>
-					<Link href='/share'>Share Your Recipes</Link>
+					<Link href='/meals/share'>Share Your Recipes</Link>
 				</p>
 			</header>
 			<main className={styles.main}>

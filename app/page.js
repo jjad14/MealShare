@@ -17,7 +17,7 @@ export default function Home() {
 					</div>
 					<div className={styles.cta}>
 						<Link href='/community'>Join the Community</Link>
-						<Link href='/meals'>Explore Meals</Link>
+						<Link href='/meals/share'>Explore Meals</Link>
 					</div>
 				</div>
 			</header>
